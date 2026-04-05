@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.layout {
+  width: 900px;
+  border: #f0f 1px solid;
+  margin: 5px auto;
+}
+
+.hright {
+  text-align: right;
+}
+
+.hright p {
+  margin-top: 10px;
+}
+
+.nav {
+  width: 100%;
+  background-color: #333;
+  height: 45px;
+  border-bottom: #c00 3px solid;
+}
+
+.nav ul {
+  float: left;
+  list-style: none;
+  margin-left: 30px;
+}
+
+.nav ul li {
+  float: left;
+  padding: 11px 15px;
+}
+
+.nav ul li a {
+  color: #fff;
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.nav ul li:hover {
+  background-color: #ccc;
+}
+
+.nav ul li:hover a {
+  color: #00f;
+}
+
+.nav form {
+  float: right;
+  background-color: #fff;
+  border-radius: 5px;
+  border: #f90 1px solid;
+  width: 183px;
+  height: 22px;
+  margin-right: 9px;
+  margin-top: 9px;
+  padding: 3px 6px;
+}
+
+.nav form input {
+  border: none;
+  width: 150px;
+}
+
+/* sidebar */
+.aside {
+  width: 200px;
+  vertical-align: top;
+}
+
+.aside ul {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.aside ul li {
+  margin-top: 10px;
+}
+
+.aside ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.aside ul li a:hover {
+  font-style: italic;
+}
+
+.aside p {
+  margin-left: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.section {
+  width: 695px;
+  vertical-align: top;
+}
+
+.section a img {
+  margin-top: 5px;
+  border: #036 1px solid;
+}
+
+.sp {
+  float: left;
+  width: 168px;
+  text-align: center;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background: linear-gradient(#fcf, #cab9ee);
+  padding-top: 4px;
+  box-shadow: 2px 2px 1px #f90;
+}
+
+.sp img {
+  width: 100%;
+  height: 120px;
+}
+
+.sp p {
+  margin-bottom: 5px;
+}
+
+.tensp a {
+  color: #00f;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.giatiensp {
+  color: #c00;
+  font-size: 20px;
+}
+
+.sppa img {
+  border: none;
+}
+
+.footer {
+  clear: both;
+  border-top: #333 4px solid;
+  background-color: #999;
+  height: 50px;
+  padding: 5px;
+}
+
+.footer ul li {
+  list-style: none;
+  display: inline;
+  border-right: #333 1px solid;
+  padding: 0 5px;
+}
+
+.footer ul li#last {
+  border-right: none;
+}
+
+.footer ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer p {
+  color: #333;
+  padding-left: 5px;
+  margin-top: 5px;
+}
+
+.sp a img {
+  width: 80px;
+  height: auto;
+}
